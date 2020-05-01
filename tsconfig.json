@@ -6,6 +6,7 @@
     "rootDir": "src",
     "outDir": "lib",
     "allowJs": true,
+    "jsx": "preserve",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
@@ -16,5 +17,5 @@
     "isolatedModules": true,
     "noEmit": true
   },
-  "include": ["src"]
+  "include": ["src/**/*"]
 }

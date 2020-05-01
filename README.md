@@ -1,5 +1,7 @@
-# ts-configured
+# ts-configured-react
 
-A bare-bones [TypeScript](https://www.typescriptlang.org/) starter repo using [ESLint](https://eslint.org/) for linting, [Babel](https://babeljs.io/) for transpiling and [Prettier](https://prettier.io/) for formatting.
+A bare-bones [TypeScript](https://www.typescriptlang.org/) + [React](https://reactjs.org/) starter repo using [ESLint](https://eslint.org/) for linting, [Babel](https://babeljs.io/) for transpiling and [Prettier](https://prettier.io/) for formatting.
+
+Adds React, React DOM, [Redux](https://redux.js.org/), [react-redux](https://react-redux.js.org/) and [redux-promise](https://github.com/redux-utilities/redux-promise).
 
 No build scripts, no tooling, just config.

@@ -2,6 +2,7 @@
   "parser": "@typescript-eslint/parser",
   "extends": [
     "eslint:recommended",
+    "plugin:react/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier",
@@ -16,9 +17,15 @@
   },
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
+    "react/prop-types": ["off"],
     "@typescript-eslint/explicit-function-return-type": [
       "error",
       { "allowHigherOrderFunctions": true, "allowExpressions": true }
     ]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }
